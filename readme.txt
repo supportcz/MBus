@@ -1,0 +1,1 @@
+M-Bus sample AS project with a X20CS1012 module.

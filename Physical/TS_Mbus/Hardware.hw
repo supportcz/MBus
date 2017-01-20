@@ -1,0 +1,69 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<?AutomationStudio Version=4.2.2.134?>
+<Hardware xmlns="http://br-automation.co.at/AS/Hardware">
+  <Module Name="X20BM11" Type="X20BM11" Version="1.0.0.0">
+    <Connection Connector="X2X1" TargetModule="X20CP1484" TargetConnector="IF6" />
+  </Module>
+  <Module Name="X20CP1484" Type="X20CP1484" Version="1.1.4.0">
+    <Parameter ID="Cyclic1Duration" Value="10000" />
+    <Parameter ID="Cyclic1Tolerance" Value="10000" />
+    <Parameter ID="Cyclic2Duration" Value="20000" />
+    <Parameter ID="Cyclic2Tolerance" Value="20000" />
+    <Parameter ID="Cyclic3Duration" Value="50000" />
+    <Parameter ID="Cyclic3Tolerance" Value="50000" />
+    <Parameter ID="Cyclic4Duration" Value="100000" />
+    <Parameter ID="Cyclic4Tolerance" Value="100000" />
+    <Parameter ID="Cyclic5Duration" Value="200000" />
+    <Parameter ID="Cyclic5Tolerance" Value="200000" />
+    <Parameter ID="Cyclic6Duration" Value="500000" />
+    <Parameter ID="Cyclic6Tolerance" Value="500000" />
+    <Parameter ID="Cyclic7Duration" Value="1000000" />
+    <Parameter ID="Cyclic7Tolerance" Value="1000000" />
+    <Parameter ID="Cyclic8Duration" Value="10000" />
+    <Parameter ID="Cyclic8Tolerance" Value="30000000" />
+  </Module>
+  <Module Name="X20CS1012" Type="X20CS1012" Version="1.0.3.1">
+    <Connection Connector="SS1" TargetModule="X20TB12" TargetConnector="SS" />
+    <Connection Connector="SL" TargetModule="X20BM11" TargetConnector="SL1" />
+    <Parameter ID="Data1" Value="enabled" />
+    <Parameter ID="Data2" Value="enabled" />
+    <Parameter ID="Data3" Value="enabled" />
+    <Parameter ID="Data4" Value="enabled" />
+    <Parameter ID="Data5" Value="enabled" />
+    <Parameter ID="Data6" Value="enabled" />
+    <Parameter ID="Data7" Value="enabled" />
+    <Parameter ID="Data8" Value="enabled" />
+    <Parameter ID="TypeData1" Value="UINT" />
+    <Parameter ID="PrimAddressData1" Value="1" />
+    <Parameter ID="ReadCycData1" Value="on" />
+    <Parameter ID="TypeData2" Value="UINT" />
+    <Parameter ID="BaudrateData2" Value="300" />
+    <Parameter ID="PrimAddressData2" Value="1" />
+    <Parameter ID="IndexData2" Value="2" />
+    <Parameter ID="ReadCycData2" Value="on" />
+    <Parameter ID="ValReadCycData2" Value="5" />
+    <Parameter ID="TypeData3" Value="UINT" />
+    <Parameter ID="BaudrateData3" Value="300" />
+    <Parameter ID="PrimAddressData3" Value="1" />
+    <Parameter ID="IndexData3" Value="3" />
+    <Parameter ID="ReadCycData3" Value="on" />
+    <Parameter ID="ValReadCycData3" Value="5" />
+    <Parameter ID="TypeData4" Value="UINT" />
+    <Parameter ID="IndexData4" Value="4" />
+    <Parameter ID="ReadCycData4" Value="on" />
+    <Parameter ID="ValReadCycData4" Value="5" />
+    <Parameter ID="IndexData5" Value="5" />
+    <Parameter ID="TypeData6" Value="UINT" />
+    <Parameter ID="IndexData6" Value="6" />
+    <Parameter ID="ReadCycData6" Value="on" />
+    <Parameter ID="ValReadCycData1" Value="5" />
+    <Parameter ID="ValReadCycData6" Value="5" />
+    <Parameter ID="TypeData7" Value="UDINT" />
+    <Parameter ID="IndexData7" Value="7" />
+    <Parameter ID="ReadCycData7" Value="on" />
+    <Parameter ID="TypeData8" Value="UDINT" />
+    <Parameter ID="IndexData8" Value="8" />
+    <Parameter ID="ReadCycData8" Value="on" />
+  </Module>
+  <Module Name="X20TB12" Type="X20TB12" Version="1.0.0.0" />
+</Hardware>
